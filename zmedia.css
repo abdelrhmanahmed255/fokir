@@ -1,0 +1,78 @@
+/* Small devices (landscape phones, 576px and up) */
+
+@media screen and (max-width: 576px) {
+  .sm-25 {
+    width: 25%;
+  }
+  .sm-33 {
+    width: 33.333%;
+  }
+  .sm-50 {
+    width: 50%;
+  }
+.sm-100 {
+    width: 100%;
+  }
+  .about .about-list li{
+    width: 100%;
+  }
+  div.lf{
+    left: 0;
+   bottom: 40px;
+   margin: 0;
+  }
+
+input.mg-0{
+    display: block;
+ width: 100%;
+ margin: 20px 20px;
+} 
+input.sub{
+    width: 100%;
+    margin: 0px 20px;
+}
+textarea.mg-0{
+    display: block;
+    width: 100%;
+       margin: 20px 20px;
+}
+button.mg-0{
+    margin: 20px 20px;
+}
+}
+
+/* medium devices (desktops, 992px and up) */
+@media screen and (min-width: 576px)and (max-width: 992px)
+ {
+.md-25 {
+    width: 25%;
+}
+  .md-33 {
+    width: 33.333%;
+  }
+  .md-50 {
+    width: 50%;
+  }
+  .md-75{
+    width: 75%;
+  }
+  .md-100 {
+    width:100%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .lg-25 {
+    width: 25%;
+  }
+  .lg-33 {
+    width: 33.333%;
+  }
+  .lg-50 {
+    width: 50%;
+  }
+  .lg-100 {
+    width: 100%;
+  }
+}
